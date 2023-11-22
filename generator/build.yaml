@@ -1,0 +1,13 @@
+targets:
+  $default:
+    builders:
+      builders|cell_resolver:
+        enabled: true
+
+builders:
+  cell_resolver:
+    import: "package:cell_generator/cell_generator.dart"
+    builder_factories: ["cellResolver"]
+    build_extensions: { "$lib$": ["cell_bindings.g.dart"] }
+    auto_apply: dependents
+    build_to: source
