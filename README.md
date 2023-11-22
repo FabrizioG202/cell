@@ -2,6 +2,10 @@
 
 ⚠️ Cell is not yet ready to use, It still mostly a concept at this stage, look below for more information about what currently works and what does not. Moreover, we are keeping an up-to-date example in the `example` folder, so if you want to see how to use Cell, please check it out.
 
+## 🛠️ Testing and Development:
+
+Currently, Cell cannot be used in a real production environment, since it is not on pub.dev. The best way to test Cell is to clone the repository and run the example project.
+
 ## A Minimalistic and Easy-to-Use local Backend for your projects.
 
 **Cell** is a streamlined, pure dart backend database designed exclusively for Dart and Flutter applications. If you are looking for a simple and transparent way to persist data in your application, Cell offers a nimble alternative to traditional databases, that is both easy to use and cross-platform compatible.
@@ -19,8 +23,8 @@
 We decided to divide the development journey for Cell into four main phases:
 
 - **Core implementations**: In this phase, we will focus on implementing the core features of Cell, such as the data structure, the code generator, and the basic CRUD operations. This phase will be completed with the release of the first stable version of Cell, which will be released as soon as possible. At this stage, Cell will be safe to use in most conditions, but will not be the most resilient solution. At the end of this phase, we want the API to be consolidated and stable, so that we can focus on the next phases without having to worry about breaking changes. Still, small quality of life improvements are possible.
-- **Transactions and Queries**: To make Cell a more robust solution, we will implement transactions and queries. This will allow for peace of mind when using Cell in production. This phase will be completed with the release of the second stable version of Cell. We still need to lay the foundation for this phase and believe we could use some help. We opened an issue on the topic, so if you are interested, please check it out.
-- **Encryption**: To make Cell a more secure solution, we will implement encryption. As for the previous phase, we still need to lay the foundations and flesh out the details. We opened an issue on the topic, so if you are interested or believe you could help, please check it out.
+- **Transactions and Queries**: To make Cell a more robust solution, we will implement transactions and queries. This will allow for peace of mind when using Cell in production. This phase will be completed with the release of the second stable version of Cell. We still need to lay the foundation for this phase and believe we could use some help. We opened an [issue](https://github.com/FabrizioG202/cell/issues/1) on the topic, so if you are interested, please check it out.
+- **Encryption**: To make Cell a more secure solution, we will implement encryption. As for the previous phase, we still need to lay the foundations and flesh out the details. We opened an [issue](https://github.com/FabrizioG202/cell/issues/2) on the topic, so if you are interested or believe you could help, please check it out.
 - **Beyond Transparency**: To make Cell a more transparent solution, we will implement a data inspector. This will allow you to inspect the data stored in your tables, without having to open the files manually. We believe the solution implemented by [Isar](https://github.com/isar/isar/tree/main/packages/isar_inspector) is a great example of what we want to achieve.
 
 ### Non-Goals:
