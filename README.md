@@ -65,7 +65,7 @@ First, we define a `Person` class. This class is annotated with `@Embedded()`, i
 
 ```dart
 @Embedded()
-final class Person extends Equatable {
+final class Person {
   @EmbeddedConstructor()
   Person({
     required this.name,
